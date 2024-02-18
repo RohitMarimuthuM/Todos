@@ -1,0 +1,111 @@
+/* Additional CSS to enhance the appearance */
+.full
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 20px;
+  
+ 
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.search-container {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item:hover {
+  background-color: #f4f4f4;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.task-description {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-button {
+  margin-left: auto;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.add-button {
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #27ae60;
+}
